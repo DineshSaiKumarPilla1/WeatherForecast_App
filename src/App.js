@@ -49,9 +49,7 @@ const WeatherApp = () => {
               value={location}
               onChange={(e) => setLocation(e.target.value)}
             />
-            <Button variant="primary" type="submit">
-              <FaSearch />
-            </Button>
+            <Button variant="primary" type="submit"> <FaSearch/> Search </Button>
           </InputGroup>
         </Form>
         {error ? (
