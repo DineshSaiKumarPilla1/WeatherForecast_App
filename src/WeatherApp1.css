@@ -1,0 +1,64 @@
+.weather-app {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(to bottom, #040606, #e7e4e4);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content-container {
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .error-card {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  .weather-card {
+    background-color: #fff;
+    border-color: #dee2e6;
+    color: #000;
+  }
+  
+  .weather-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .error-icon {
+    color: #dc3545;
+    font-size: 2rem;
+  }
+  
+  .text-primary {
+    color: #007bff;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .weather-app-title {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
